@@ -6,7 +6,7 @@
     "rating": 9.8,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 150,
     "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 9.5,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm offbreak",
-    "price": 1200000,
+    "price": 120,
    "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 9.3,
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Right-arm fast-medium",
-    "price": 1400000,
+    "price": 140,
     "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 9.4,
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Slow left-arm orthodox",
-    "price": 1300000,
+    "price": 130,
    "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 9.2,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm offbreak",
-    "price": 1100000,
+    "price": 110000,
      "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   }
 ]
