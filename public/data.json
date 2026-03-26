@@ -17,7 +17,7 @@
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm offbreak",
     "price": 1200000,
-    "image": "https://i.imgur.com/Jv6QK0G.jpg"
+   "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
     "playerName": "Ben Stokes",
@@ -27,7 +27,7 @@
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Right-arm fast-medium",
     "price": 1400000,
-    "image": "https://i.imgur.com/3yKXH9B.jpg"
+    "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -37,7 +37,7 @@
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Slow left-arm orthodox",
     "price": 1300000,
-    "image": "https://i.imgur.com/L7bXK3T.jpg"
+   "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   },
   {
     "playerName": "Kane Williamson",
@@ -47,6 +47,6 @@
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm offbreak",
     "price": 1100000,
-    "image": "https://i.imgur.com/0A7XK9P.jpg"
+     "image": "https://i.ibb.co.com/Lh9vLt6K/virat.webp"
   }
 ]
