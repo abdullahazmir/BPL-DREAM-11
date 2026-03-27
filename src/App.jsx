@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Players from './components/players/Players'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -24,6 +25,9 @@ function App() {
      <Suspense className="max-w-287.5 mx-auto" fallback={<span className="loading loading-dots loading-xl  text-center"></span>}>
        <Players playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
      </Suspense>
+
+     {/* react toast */}
+      <ToastContainer autoClose={500} />
     </>
   )
 }

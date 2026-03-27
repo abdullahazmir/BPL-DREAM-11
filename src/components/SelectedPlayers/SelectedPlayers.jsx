@@ -9,7 +9,7 @@ console.log(player )
 const filteredPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer.playerName!=player.playerName);
 
 setSelectedPlayers(filteredPlayers)
-setCoin(coin + player.price)
+setCoin(coin+player.price)
 console.log(filteredPlayers, "filteredPlayers")
 }
 
@@ -17,8 +17,17 @@ console.log(filteredPlayers, "filteredPlayers")
     return (
         <div>
             {
-                selectedPlayers.map((player, ind) => {
-                    return (<div key={ind} >
+               selectedPlayers.length===0?
+                
+                <div className='flex flex-col items-center'>
+                <h2 className='font-bold text-3xl'>No Players is selected</h2>
+                <p>please go to select players</p>
+               </div>
+
+
+               
+               : selectedPlayers.map((player, ind) => {
+                    return <div key={ind} >
                         <div className='flex justify-between items-center p-10 border rounded-2xl'>
                             <div>
                                 <img className='w-17.5' src={player.image} alt={player.playerName} />
@@ -30,7 +39,7 @@ console.log(filteredPlayers, "filteredPlayers")
 
                         <button onClick={()=>handleDeleteSelectedPlayer(player)} className='btn text-red-600'><MdDelete /></button>
                         </div>
-                    </div>)
+                    </div>
                 })
             }
         </div>
