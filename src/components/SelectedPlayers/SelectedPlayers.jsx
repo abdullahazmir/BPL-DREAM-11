@@ -2,7 +2,17 @@ import React from 'react';
 import { MdDelete } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 
-const SelectedPlayers = ({ selectedPlayers }) => {
+const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
+
+const handleDeleteSelectedPlayer =(player)=>{
+console.log(player )
+const filteredPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer.playerName!=player.playerName);
+
+setSelectedPlayers(filteredPlayers)
+setCoin(coin + player.price)
+console.log(filteredPlayers, "filteredPlayers")
+}
+
     console.log(selectedPlayers)
     return (
         <div>
@@ -18,7 +28,7 @@ const SelectedPlayers = ({ selectedPlayers }) => {
                             </div>
                             </div>
 
-                        <button className='btn text-red-600'><MdDelete /></button>
+                        <button onClick={()=>handleDeleteSelectedPlayer(player)} className='btn text-red-600'><MdDelete /></button>
                         </div>
                     </div>)
                 })

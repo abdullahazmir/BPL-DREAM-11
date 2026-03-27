@@ -30,7 +30,7 @@ const [selectedPlayers, setSelectedPlayers]= useState([])
             {
                selectedType==='available' ? <AvailablePlayers players={players} setCoin= {setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/> 
 
-               : <SelectedPlayers selectedPlayers={selectedPlayers}/>
+               : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin= {setCoin} coin={coin}/>
             }
         </div>
     );
